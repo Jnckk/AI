@@ -34,7 +34,7 @@ function App() {
       setMessage("");
 
       try {
-        const res = await fetch("http://localhost:3001/chat", {
+        const res = await fetch("https://backend-ai-jnck.vercel.app/chat", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
